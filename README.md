@@ -14,9 +14,9 @@ where:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[\beta&space;=&space;Beta&space;of&space;the&space;security\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[\beta&space;=&space;Beta&space;of&space;the&space;security\]" title="\[\beta = Beta of the security\]" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\[r_m&space;=&space;Expected&space;market&space;return\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_m&space;=&space;Expected&space;market&space;return\]" title="\[r_m = Expected market return\]" /></a></
+<a href="https://www.codecogs.com/eqnedit.php?latex=\[r_m&space;=&space;Expected&space;market&space;return\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_m&space;=&space;Expected&space;market&space;return\]" title="\[r_m = Expected market return\]" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\[\epsilon&space;=&space;Tracking&space;error\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[\epsilon&space;=&space;Tracking&space;error\]" title="\[\epsilon = Tracking error\]" /></a></
+<a href="https://www.codecogs.com/eqnedit.php?latex=\[\epsilon&space;=&space;Tracking&space;error\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[\epsilon&space;=&space;Tracking&space;error\]" title="\[\epsilon = Tracking error\]" /></a>
 
 
 This formula can be better understood if we refactor the formula as seen below:
@@ -42,4 +42,5 @@ The formula above indicates that beta can be explained as "correlated relative v
 [@]()   [@]()   [@]()   [@]()   [@]()   [@]()
 # Reference Documentation
 [CAPM Approach](https://www.quantconnect.com/tutorials/strategy-library/capm-alpha-ranking-strategy-on-dow-30-companies#CAPM-Alpha-Ranking-Strategy-on-Dow-30-Companies-Algorithm) 
+
 [Coupla Based-Pairs Trading Approach](https://www.quantconnect.com/tutorials/strategy-library/pairs-trading-copula-vs-cointegration)
