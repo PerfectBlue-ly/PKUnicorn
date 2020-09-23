@@ -7,12 +7,17 @@ PKunicorn helps you to allocate your investment strategy in stock market. This t
 The capital asset pricing model (**CAPM**) describes the relationship between systematic risk and expected return for assets, typically stocks. The formula for calculating the expected return of an asset given its risk is as follows:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[r_a&space;=&space;r_f&space;&plus;&space;\beta_a*(r_m&space;-&space;r_f)&space;&plus;&space;\epsilon&space;\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_a&space;=&space;r_f&space;&plus;&space;\beta_a*(r_m&space;-&space;r_f)&space;&plus;&space;\epsilon&space;\]" title="\[r_a = r_f + \beta_a*(r_m - r_f) + \epsilon \]" /></a>
+
 where:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[r_f&space;=&space;Risk&space;Free&space;Rate\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_f&space;=&space;Risk&space;Free&space;Rate\]" title="\[r_f = Risk Free Rate\]" /></a>
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[\beta&space;=&space;Beta&space;of&space;the&space;security\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[\beta&space;=&space;Beta&space;of&space;the&space;security\]" title="\[\beta = Beta of the security\]" /></a>
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[r_m&space;=&space;Expected&space;market&space;return\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_m&space;=&space;Expected&space;market&space;return\]" title="\[r_m = Expected market return\]" /></a>
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[\epsilon&space;=&space;Tracking&space;error\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[\epsilon&space;=&space;Tracking&space;error\]" title="\[\epsilon = Tracking error\]" /></a>
+
 
 This formula can be better understood if we refactor the formula as seen below:
 
@@ -29,6 +34,7 @@ So beta can be described as:
 The formula above indicates that beta can be explained as "correlated relative volatility". To make this simpler, beta can be calculated by doing a simple linear regression which can be viewed as a factor to explain the return, and the tracking error can represent alpha. To make this theory more convenient for our algorithm, we change the above formula into the following form:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[r_a&space;=&space;\beta*r_m&space;&plus;&space;r_f*(1-\beta)&space;&plus;&space;\epsilon\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_a&space;=&space;\beta*r_m&space;&plus;&space;r_f*(1-\beta)&space;&plus;&space;\epsilon\]" title="\[r_a = \beta*r_m + r_f*(1-\beta) + \epsilon\]" /></a>
+
 **<a href="https://www.codecogs.com/eqnedit.php?latex=r_f*(1-\beta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_f*(1-\beta)" title="r_f*(1-\beta)" /></a>** on the right hand side of the equation is a very small item, making it negligible in the context of the Dow 30 companies. If we regress the stocks return with the return of the benchmark, the slope and intercept will be beta and alpha.
 ## [Coupla Based-Pairs Trading Approach](https://www.quantconnect.com/tutorials/strategy-library/pairs-trading-copula-vs-cointegration)
 **Being edited......**
