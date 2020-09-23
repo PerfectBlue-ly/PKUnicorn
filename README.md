@@ -39,7 +39,7 @@ The formula above indicates that beta can be explained as "correlated relative v
 ## [Coupla Based-Pairs Trading Approach](https://www.quantconnect.com/tutorials/strategy-library/pairs-trading-copula-vs-cointegration)
 **Being edited......**
 # Team Members
-[@LY](https://github.com/PerfectBlue-ly)   [@JPT](https://github.com/brycejpt)   [@]()   [@]()   [@]()   [@]() 
+[@LY](https://github.com/PerfectBlue-ly)   [@JPT](https://github.com/brycejpt)   [@ZJQ](https://github.com/UtenaTenjo371)   [@]()   [@]()   [@]() 
 # Reference Documentation
 [CAPM Approach](https://www.quantconnect.com/tutorials/strategy-library/capm-alpha-ranking-strategy-on-dow-30-companies#CAPM-Alpha-Ranking-Strategy-on-Dow-30-Companies-Algorithm) 
 
