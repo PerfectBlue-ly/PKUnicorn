@@ -1,7 +1,7 @@
 PKUnicorn
 =====================
 # Introduction
-PKunicorn helps you to allocate your investment strategy in stock market. This tool will give you some statistical information, and tell you which stock you are supporsed to choose with different investment strategies! Now we plan to initially use two investment strategies. One is **CAPM approach**, the other is **Coupla Based-Pairs Trading Approach**. And we are going to add more strategies!
+PKunicorn helps you allocate your investment strategy in stock market. This tool will give you some statistical information, and tell you which stock you are supporsed to choose with different investment strategies! Now we plan to initially use two investment strategies. One is **CAPM Approach**, the other is **Copula Based-Pairs Trading Approach**. And we are going to add more strategies!
 # Investment Strategy
 ## [CAPM Approach](https://www.quantconnect.com/tutorials/strategy-library/capm-alpha-ranking-strategy-on-dow-30-companies#CAPM-Alpha-Ranking-Strategy-on-Dow-30-Companies-Algorithm) 
 The capital asset pricing model (**CAPM**) describes the relationship between systematic risk and expected return for assets, typically stocks. The formula for calculating the expected return of an asset given its risk is as follows:
@@ -36,7 +36,7 @@ The formula above indicates that beta can be explained as "correlated relative v
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[r_a&space;=&space;\beta*r_m&space;&plus;&space;r_f*(1-\beta)&space;&plus;&space;\epsilon\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[r_a&space;=&space;\beta*r_m&space;&plus;&space;r_f*(1-\beta)&space;&plus;&space;\epsilon\]" title="\[r_a = \beta*r_m + r_f*(1-\beta) + \epsilon\]" /></a>
 
 **<a href="https://www.codecogs.com/eqnedit.php?latex=r_f*(1-\beta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_f*(1-\beta)" title="r_f*(1-\beta)" /></a>** on the right hand side of the equation is a very small item, making it negligible in the context of the Dow 30 companies. If we regress the stocks return with the return of the benchmark, the slope and intercept will be beta and alpha.
-## [Coupla Based-Pairs Trading Approach](https://www.quantconnect.com/tutorials/strategy-library/pairs-trading-copula-vs-cointegration)
+## [Copula Based-Pairs Trading Approach](https://www.quantconnect.com/tutorials/strategy-library/pairs-trading-copula-vs-cointegration)
 **Being edited......**
 # Team Members
 [@LY](https://github.com/PerfectBlue-ly)   [@JPT](https://github.com/brycejpt)   [@ZJQ](https://github.com/UtenaTenjo371)   [@]()   [@]()   [@]() 
