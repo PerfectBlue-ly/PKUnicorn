@@ -1,3 +1,4 @@
+
 # Contributing to PKUnicorn
 We love your input! We want to make contributing to this project as easy and friendly as possible, whether it is:
 1. Reporting a bug
@@ -5,6 +6,12 @@ We love your input! We want to make contributing to this project as easy and fri
 3. Submitting a fix
 4. Proposing new features
 5. Becoming a maintainer
+
+The following is a set of guideline for contributing to PKUnicorn and its packages. These are mostly guidelines, not rules. Use your best judgement, and feel free to propose changes to this document in a pull request.
+
+#### Table of Contents
+
+To be continued...
 
 # We Develop with Github
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
